@@ -1,0 +1,306 @@
+* {
+  margin: 0px;
+}
+
+body {
+  font-family: 'Avenir Next LT Pro', sans-serif;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.grey{
+  color: grey;
+}
+
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height:64px;
+  width: 100%;
+  opacity: 0.8;
+  background-color:white;
+  
+  position:fixed;
+  z-index: 1;
+}
+
+.container {
+  display:flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.icontext{
+  display: flex;
+  align-items: center;
+  height: 32px;
+  margin: auto 24px;
+  width: 350px;
+  
+}
+
+#icon{
+  height: 32px;
+  margin: 0;
+  
+  
+}
+
+
+.navi{
+  display: flex;
+  justify-content: flex-end;
+  
+  width: 300px;
+  margin: 0 24px;
+}
+
+.link {
+  display: inline-block;
+  
+  margin: auto 8px;
+}
+
+
+
+#banner-container {
+  position:relative;
+  top: 64px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 32px 24px;
+  background-color: #d7d7d7;
+}
+
+#banner-container img {
+  width: 60%;
+}
+
+#banner-container #banner-text {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+}
+
+#banner-container #banner-text h1 {
+  margin-top: 24px;
+  color: #4a4a4a;
+}
+
+#banner-container #banner-text p {
+  color: #4a4a4a;
+  margin-top: 24px;
+}
+
+#banner-container #banner-text button {
+  color: white;
+  background-color: #4a4a4a;
+  border: unset;
+  padding: 8px 0px;
+  margin-top: 24px;
+}
+
+
+
+#part2-container {
+  position:relative;
+  top: 64px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  padding: 32px 0 32px 24px;
+  margin: 0;
+}
+
+
+#ban2-left{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding:0 0;
+  margin:0 24px 0 0;
+  text-align: center;
+}
+
+
+
+#ban2-left h1{
+  margin:32px 0 24px 0;
+  border: 2px solid black;
+}
+#ban2-left p{
+  width: 100%;
+}
+
+#ban2-left #quote-name{
+
+  text-align: left;
+}
+
+#ban2-left img {
+  width: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  margin:0;
+}
+
+#ban2-right{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 0;
+  margin:0;
+ 
+  
+}
+
+#ban2-right #orient-date{
+  border: 1px solid grey;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+#ban2-right #our-campus{
+  border: 1px solid grey;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+#ban2-right #guest-lecture{
+  border: 1px solid grey;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+#ban2-right .tworight-text{
+  height: auto;
+  width: 65%;
+  margin: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#ban2-right .tworight-text p{
+
+  margin: 8px 0;
+}
+#ban2-right .right-img{
+  display: flex;
+  height: auto;
+  width: 35%;
+  padding: 0;
+  margin: 16;
+}
+
+#ban2-right img{
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  margin:0;
+}
+
+#part2-container #ban2-right h3 {
+  margin-top: 24px;
+  color: #4a4a4a;
+}
+
+#part2-container #ban2-right p{
+  color: #4a4a4a;
+  margin: 8px;
+}
+
+
+#part3-container{
+
+  position:relative;
+  top: 64px;
+  background-color: #d7d7d7;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  margin: 32px 72px
+
+}
+
+#part3-container #part3-title{
+  
+  width: 100%;
+  text-align: center;
+  margin:32px 0;
+} 
+
+#part3-container #part3-line1{
+  
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#part3-container #part3-line2{
+  
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#part3-container .threebox{
+  
+  display: flex;
+  flex-direction: column;
+  width:357.33px;
+  margin: 32px 16px;
+}
+
+.threebox .threebox-img{
+  
+  display: flex;
+  height: auto;
+  width: 100%;
+}
+
+ .threebox img{
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  margin:0;
+}
+
+.threebox .threebox-text{
+  
+  background-color: white;
+  width: auto;
+  text-align: left;
+  margin: 0;
+  padding: 16px;
+}
+
+.threebox-text h3{
+  margin: 16px 0;
+}
+
+.threebox-text .course{
+  margin: 8px;
+}
+
